@@ -31,7 +31,7 @@ cfg.dataset = dataset
 
 # Set random seed
 seed = random.randint(1, 200)
-seed = 2019
+# seed = 2019
 np.random.seed(seed)
 torch.manual_seed(seed)
 # if torch.cuda.is_available():
