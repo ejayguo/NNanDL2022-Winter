@@ -290,7 +290,8 @@ def clean_str(string):
     Tokenization/string cleaning for all datasets except for SST.
     Original taken from https://github.com/yoonkim/CNN_sentence/blob/master/process_data.py
     """
-    string = re.sub(r"[^A-Za-z0-9(),!?\'\`]", " ", string)
+    # string = re.sub(r"[^A-Za-z0-9(),!?\'\`]", " ", string)
+    string = re.sub(r"[^A-Za-z0-9]", " ", string)
     string = re.sub(r"\'s", " \'s", string)
     string = re.sub(r"\'ve", " \'ve", string)
     string = re.sub(r"n\'t", " n\'t", string)
@@ -323,6 +324,18 @@ def print_log(msg='', end='\n'):
         else: 
             print('[' + t + '] ' + str(line))
 
+
+    path_log = './logs/supremecourt/log.txt'
+    for line in lines:
+        if line == lines[-1]:
+            str_log = '[' + t + '] ' + str(line) + end
+            # Open a file with access mode 'a'
+            file_object = open(path_log, 'a+')
+            # Append 'hello' at the end of file
+            file_object.write(str_log)
+            # Close the file
+            file_object.close()
+            
 
 
 

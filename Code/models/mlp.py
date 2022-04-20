@@ -7,8 +7,11 @@ class MLP(nn.Module):
     def __init__(self, input_dim, dropout_rate=0., num_classes=10):
         super(MLP, self).__init__()
 
-        self.fc1 = nn.Linear(input_dim, 200)
-        self.fc2 = nn.Linear(200, num_classes)
+        # self.fc1 = nn.Linear(input_dim, 200)
+        # self.fc2 = nn.Linear(200, num_classes)
+
+        self.fc1 = nn.Linear(input_dim, 300)
+        self.fc2 = nn.Linear(300, num_classes)
         
         self.relu = nn.ReLU(inplace=True)
         self.dropout = nn.Dropout(dropout_rate)

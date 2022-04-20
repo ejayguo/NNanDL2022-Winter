@@ -1,0 +1,103 @@
+[2022/4/18 00:41:52] Epoch: 1, train_loss= 2.57267, train_acc= 0.06606, val_loss= 2.56186, val_acc= 0.31502, time= 17.00597
+[2022/4/18 00:42:06] Epoch: 2, train_loss= 2.53469, train_acc= 0.32992, val_loss= 2.56043, val_acc= 0.31664, time= 14.17819
+[2022/4/18 00:42:19] Epoch: 3, train_loss= 2.51962, train_acc= 0.33549, val_loss= 2.56004, val_acc= 0.35703, time= 12.37661
+[2022/4/18 00:42:29] Epoch: 4, train_loss= 2.51426, train_acc= 0.38359, val_loss= 2.55951, val_acc= 0.39903, time= 10.16996
+[2022/4/18 00:42:38] Epoch: 5, train_loss= 2.50804, train_acc= 0.42955, val_loss= 2.55885, val_acc= 0.45880, time= 9.19260
+[2022/4/18 00:42:47] Epoch: 6, train_loss= 2.50108, train_acc= 0.49883, val_loss= 2.55813, val_acc= 0.49111, time= 9.14603
+[2022/4/18 00:42:57] Epoch: 7, train_loss= 2.49390, train_acc= 0.53707, val_loss= 2.55737, val_acc= 0.52019, time= 9.28099
+[2022/4/18 00:43:06] Epoch: 8, train_loss= 2.48635, train_acc= 0.55448, val_loss= 2.55665, val_acc= 0.51696, time= 9.24418
+[2022/4/18 00:43:15] Epoch: 9, train_loss= 2.47902, train_acc= 0.55430, val_loss= 2.55604, val_acc= 0.51858, time= 9.39607
+[2022/4/18 00:43:25] Epoch: 10, train_loss= 2.47273, train_acc= 0.55591, val_loss= 2.55553, val_acc= 0.52827, time= 9.29190
+[2022/4/18 00:43:34] Epoch: 11, train_loss= 2.46725, train_acc= 0.56238, val_loss= 2.55501, val_acc= 0.54281, time= 9.21424
+[2022/4/18 00:43:43] Epoch: 12, train_loss= 2.46181, train_acc= 0.57763, val_loss= 2.55446, val_acc= 0.57512, time= 9.20773
+[2022/4/18 00:43:52] Epoch: 13, train_loss= 2.45621, train_acc= 0.60833, val_loss= 2.55392, val_acc= 0.59935, time= 9.17640
+[2022/4/18 00:44:02] Epoch: 14, train_loss= 2.45076, train_acc= 0.63615, val_loss= 2.55339, val_acc= 0.62520, time= 9.26451
+[2022/4/18 00:44:11] Epoch: 15, train_loss= 2.44574, train_acc= 0.65446, val_loss= 2.55287, val_acc= 0.64782, time= 9.25982
+[2022/4/18 00:44:20] Epoch: 16, train_loss= 2.44109, train_acc= 0.66721, val_loss= 2.55239, val_acc= 0.64459, time= 9.24061
+[2022/4/18 00:44:32] Epoch: 17, train_loss= 2.43668, train_acc= 0.67151, val_loss= 2.55194, val_acc= 0.64297, time= 11.80029
+[2022/4/18 00:44:53] Epoch: 18, train_loss= 2.43233, train_acc= 0.67385, val_loss= 2.55153, val_acc= 0.65105, time= 20.65360
+[2022/4/18 00:45:02] Epoch: 19, train_loss= 2.42798, train_acc= 0.68031, val_loss= 2.55116, val_acc= 0.65590, time= 9.74837
+[2022/4/18 00:45:12] Epoch: 20, train_loss= 2.42383, train_acc= 0.68767, val_loss= 2.55083, val_acc= 0.65913, time= 9.70612
+[2022/4/18 00:45:22] Epoch: 21, train_loss= 2.42006, train_acc= 0.69790, val_loss= 2.55050, val_acc= 0.66882, time= 9.51814
+[2022/4/18 00:45:31] Epoch: 22, train_loss= 2.41656, train_acc= 0.70723, val_loss= 2.55015, val_acc= 0.67528, time= 9.88113
+[2022/4/18 00:45:41] Epoch: 23, train_loss= 2.41322, train_acc= 0.71872, val_loss= 2.54979, val_acc= 0.67367, time= 9.34510
+[2022/4/18 00:45:50] Epoch: 24, train_loss= 2.40990, train_acc= 0.72590, val_loss= 2.54945, val_acc= 0.67690, time= 9.39437
+[2022/4/18 00:46:00] Epoch: 25, train_loss= 2.40661, train_acc= 0.73326, val_loss= 2.54916, val_acc= 0.68013, time= 9.37966
+[2022/4/18 00:46:09] Epoch: 26, train_loss= 2.40363, train_acc= 0.73775, val_loss= 2.54891, val_acc= 0.68174, time= 9.35715
+[2022/4/18 00:46:19] Epoch: 27, train_loss= 2.40098, train_acc= 0.74080, val_loss= 2.54866, val_acc= 0.68336, time= 9.79765
+[2022/4/18 00:46:29] Epoch: 28, train_loss= 2.39834, train_acc= 0.74206, val_loss= 2.54841, val_acc= 0.68013, time= 10.04741
+[2022/4/18 00:46:38] Epoch: 29, train_loss= 2.39562, train_acc= 0.74637, val_loss= 2.54818, val_acc= 0.68821, time= 9.40720
+[2022/4/18 00:46:48] Epoch: 30, train_loss= 2.39291, train_acc= 0.75426, val_loss= 2.54798, val_acc= 0.69952, time= 9.35860
+[2022/4/18 00:46:57] Epoch: 31, train_loss= 2.39043, train_acc= 0.75929, val_loss= 2.54779, val_acc= 0.69952, time= 9.93075
+[2022/4/18 00:47:07] Epoch: 32, train_loss= 2.38822, train_acc= 0.76593, val_loss= 2.54758, val_acc= 0.70436, time= 9.43525
+[2022/4/18 00:47:16] Epoch: 33, train_loss= 2.38602, train_acc= 0.77185, val_loss= 2.54734, val_acc= 0.70598, time= 9.35510
+[2022/4/18 00:47:26] Epoch: 34, train_loss= 2.38376, train_acc= 0.77401, val_loss= 2.54712, val_acc= 0.70759, time= 9.49494
+[2022/4/18 00:47:35] Epoch: 35, train_loss= 2.38161, train_acc= 0.77562, val_loss= 2.54694, val_acc= 0.70921, time= 9.32382
+[2022/4/18 00:47:44] Epoch: 36, train_loss= 2.37962, train_acc= 0.77778, val_loss= 2.54677, val_acc= 0.71244, time= 9.33651
+[2022/4/18 00:47:54] Epoch: 37, train_loss= 2.37768, train_acc= 0.78209, val_loss= 2.54660, val_acc= 0.71567, time= 9.37028
+[2022/4/18 00:48:03] Epoch: 38, train_loss= 2.37571, train_acc= 0.78729, val_loss= 2.54645, val_acc= 0.72052, time= 9.40309
+[2022/4/18 00:48:13] Epoch: 39, train_loss= 2.37381, train_acc= 0.79501, val_loss= 2.54634, val_acc= 0.72536, time= 9.49033
+[2022/4/18 00:48:23] Epoch: 40, train_loss= 2.37202, train_acc= 0.80039, val_loss= 2.54624, val_acc= 0.72698, time= 10.14880
+[2022/4/18 00:48:32] Epoch: 41, train_loss= 2.37031, train_acc= 0.80381, val_loss= 2.54612, val_acc= 0.72859, time= 9.42402
+[2022/4/18 00:48:42] Epoch: 42, train_loss= 2.36863, train_acc= 0.80578, val_loss= 2.54599, val_acc= 0.72698, time= 9.46406
+[2022/4/18 00:48:51] Epoch: 43, train_loss= 2.36700, train_acc= 0.80955, val_loss= 2.54586, val_acc= 0.73021, time= 9.41653
+[2022/4/18 00:49:01] Epoch: 44, train_loss= 2.36544, train_acc= 0.81350, val_loss= 2.54573, val_acc= 0.73183, time= 9.47722
+[2022/4/18 00:49:10] Epoch: 45, train_loss= 2.36392, train_acc= 0.81655, val_loss= 2.54562, val_acc= 0.73667, time= 9.45746
+[2022/4/18 00:49:19] Epoch: 46, train_loss= 2.36244, train_acc= 0.81960, val_loss= 2.54553, val_acc= 0.74152, time= 9.38931
+[2022/4/18 00:49:29] Epoch: 47, train_loss= 2.36098, train_acc= 0.82319, val_loss= 2.54547, val_acc= 0.73829, time= 9.60950
+[2022/4/18 00:49:39] Epoch: 48, train_loss= 2.35955, train_acc= 0.82606, val_loss= 2.54543, val_acc= 0.74152, time= 9.63191
+[2022/4/18 00:49:48] Epoch: 49, train_loss= 2.35818, train_acc= 0.82912, val_loss= 2.54539, val_acc= 0.73990, time= 9.52163
+[2022/4/18 00:49:58] Epoch: 50, train_loss= 2.35686, train_acc= 0.83235, val_loss= 2.54533, val_acc= 0.74152, time= 9.86680
+[2022/4/18 00:50:08] Epoch: 51, train_loss= 2.35554, train_acc= 0.83540, val_loss= 2.54527, val_acc= 0.74637, time= 10.14535
+[2022/4/18 00:50:18] Epoch: 52, train_loss= 2.35426, train_acc= 0.83899, val_loss= 2.54521, val_acc= 0.74798, time= 9.39617
+[2022/4/18 00:50:27] Epoch: 53, train_loss= 2.35304, train_acc= 0.84312, val_loss= 2.54516, val_acc= 0.75283, time= 9.43041
+[2022/4/18 00:50:37] Epoch: 54, train_loss= 2.35183, train_acc= 0.84635, val_loss= 2.54511, val_acc= 0.75121, time= 9.45765
+[2022/4/18 00:50:46] Epoch: 55, train_loss= 2.35066, train_acc= 0.85066, val_loss= 2.54508, val_acc= 0.75444, time= 9.41124
+[2022/4/18 00:50:55] Epoch: 56, train_loss= 2.34953, train_acc= 0.85281, val_loss= 2.54504, val_acc= 0.75444, time= 9.42626
+[2022/4/18 00:51:05] Epoch: 57, train_loss= 2.34843, train_acc= 0.85532, val_loss= 2.54500, val_acc= 0.75444, time= 9.48054
+[2022/4/18 00:51:14] Epoch: 58, train_loss= 2.34734, train_acc= 0.85891, val_loss= 2.54495, val_acc= 0.75606, time= 9.41426
+[2022/4/18 00:51:24] Epoch: 59, train_loss= 2.34627, train_acc= 0.86089, val_loss= 2.54491, val_acc= 0.75767, time= 9.45475
+[2022/4/18 00:51:33] Epoch: 60, train_loss= 2.34524, train_acc= 0.86376, val_loss= 2.54487, val_acc= 0.75767, time= 9.43642
+[2022/4/18 00:51:43] Epoch: 61, train_loss= 2.34423, train_acc= 0.86609, val_loss= 2.54482, val_acc= 0.75767, time= 9.40658
+[2022/4/18 00:51:52] Epoch: 62, train_loss= 2.34324, train_acc= 0.86861, val_loss= 2.54477, val_acc= 0.75767, time= 9.45049
+[2022/4/18 00:52:01] Epoch: 63, train_loss= 2.34227, train_acc= 0.87202, val_loss= 2.54472, val_acc= 0.75929, time= 9.44052
+[2022/4/18 00:52:11] Epoch: 64, train_loss= 2.34134, train_acc= 0.87668, val_loss= 2.54469, val_acc= 0.76090, time= 9.93159
+[2022/4/18 00:52:21] Epoch: 65, train_loss= 2.34043, train_acc= 0.87830, val_loss= 2.54465, val_acc= 0.76252, time= 9.44437
+[2022/4/18 00:52:30] Epoch: 66, train_loss= 2.33953, train_acc= 0.88081, val_loss= 2.54461, val_acc= 0.76090, time= 9.41078
+[2022/4/18 00:52:40] Epoch: 67, train_loss= 2.33866, train_acc= 0.88314, val_loss= 2.54459, val_acc= 0.76090, time= 9.40675
+[2022/4/18 00:52:49] Epoch: 68, train_loss= 2.33780, train_acc= 0.88440, val_loss= 2.54458, val_acc= 0.76090, time= 9.40404
+[2022/4/18 00:52:59] Epoch: 69, train_loss= 2.33696, train_acc= 0.88727, val_loss= 2.54458, val_acc= 0.76090, time= 10.05265
+[2022/4/18 00:53:09] Epoch: 70, train_loss= 2.33614, train_acc= 0.88997, val_loss= 2.54458, val_acc= 0.76090, time= 9.96516
+[2022/4/18 00:53:19] Epoch: 71, train_loss= 2.33534, train_acc= 0.89284, val_loss= 2.54458, val_acc= 0.76414, time= 9.89288
+[2022/4/18 00:53:28] Epoch: 72, train_loss= 2.33456, train_acc= 0.89445, val_loss= 2.54458, val_acc= 0.76575, time= 9.47186
+[2022/4/18 00:53:38] Epoch: 73, train_loss= 2.33379, train_acc= 0.89571, val_loss= 2.54456, val_acc= 0.76575, time= 9.44770
+[2022/4/18 00:53:47] Epoch: 74, train_loss= 2.33304, train_acc= 0.89661, val_loss= 2.54454, val_acc= 0.76575, time= 9.48979
+[2022/4/18 00:53:57] Epoch: 75, train_loss= 2.33231, train_acc= 0.89858, val_loss= 2.54452, val_acc= 0.76414, time= 9.41094
+[2022/4/18 00:54:06] Epoch: 76, train_loss= 2.33159, train_acc= 0.90109, val_loss= 2.54452, val_acc= 0.76414, time= 9.56174
+[2022/4/18 00:54:16] Epoch: 77, train_loss= 2.33088, train_acc= 0.90343, val_loss= 2.54451, val_acc= 0.76575, time= 9.71032
+[2022/4/18 00:54:26] Epoch: 78, train_loss= 2.33019, train_acc= 0.90540, val_loss= 2.54452, val_acc= 0.76414, time= 9.43036
+[2022/4/18 00:54:36] Epoch: 79, train_loss= 2.32951, train_acc= 0.90702, val_loss= 2.54451, val_acc= 0.76090, time= 10.95262
+[2022/4/18 00:54:46] Epoch: 80, train_loss= 2.32885, train_acc= 0.90989, val_loss= 2.54450, val_acc= 0.76414, time= 10.03117
+[2022/4/18 00:54:56] Epoch: 81, train_loss= 2.32819, train_acc= 0.91169, val_loss= 2.54449, val_acc= 0.76898, time= 9.70517
+[2022/4/18 00:55:06] Epoch: 82, train_loss= 2.32756, train_acc= 0.91330, val_loss= 2.54447, val_acc= 0.76898, time= 9.83651
+[2022/4/18 00:55:16] Epoch: 83, train_loss= 2.32693, train_acc= 0.91528, val_loss= 2.54447, val_acc= 0.76737, time= 9.99003
+[2022/4/18 00:55:26] Epoch: 84, train_loss= 2.32632, train_acc= 0.91779, val_loss= 2.54448, val_acc= 0.76898, time= 9.48485
+[2022/4/18 00:55:35] Epoch: 85, train_loss= 2.32572, train_acc= 0.91922, val_loss= 2.54448, val_acc= 0.76737, time= 9.47841
+[2022/4/18 00:55:44] Epoch: 86, train_loss= 2.32513, train_acc= 0.92138, val_loss= 2.54449, val_acc= 0.76737, time= 9.44662
+[2022/4/18 00:55:54] Epoch: 87, train_loss= 2.32455, train_acc= 0.92335, val_loss= 2.54449, val_acc= 0.76898, time= 9.48884
+[2022/4/18 00:55:54] Early stopping...
+[2022/4/18 00:55:54] Optimization Finished!
+[2022/4/18 00:55:57] 	 loss= 2.50908, accuracy= 0.79500, time= 3.21737
+[2022/4/18 00:55:57] Test Precision, Recall and F1-Score...
+[2022/4/18 00:55:57] 
+[2022/4/18 00:55:57] 
+[2022/4/18 00:55:57] 
+[2022/4/18 00:55:57] Macro average Test Precision, Recall and F1-Score...
+[2022/4/18 00:55:57] (0.801532608155012, 0.716483900667733, 0.7489459588517483, None)
+[2022/4/18 00:55:57] Micro average Test Precision, Recall and F1-Score...
+[2022/4/18 00:55:57] (0.7949969493593655, 0.7949969493593655, 0.7949969493593655, None)
+[2022/4/18 00:55:57] Embeddings:
+[2022/4/18 00:55:57] Word_embeddings:44053
+[2022/4/18 00:55:57] Train_doc_embeddings:6190
+[2022/4/18 00:55:57] Test_doc_embeddings:1639
+[2022/4/18 00:55:57] Word_embeddings:

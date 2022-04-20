@@ -10,6 +10,8 @@ from nltk.corpus import wordnet as wn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.spatial.distance import cosine
 
+from tqdm import tqdm
+
 import sys
 sys.path.append('../')
 from utils.utils import loadWord2Vec, clean_str
@@ -19,7 +21,7 @@ from utils.utils import loadWord2Vec, clean_str
 if len(sys.argv) != 2:
 	sys.exit("Use: python build_graph.py <dataset>")
 
-datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr', 'supremecourt']
 # build corpus
 dataset = sys.argv[1]
 
@@ -40,7 +42,7 @@ doc_name_list = []
 doc_train_list = []
 doc_test_list = []
 
-with open('../data/' + dataset + '.txt', 'r') as f:
+with open('../data/' + dataset + '.clean.txt', 'r') as f:
     lines = f.readlines()
     for line in lines:
         doc_name_list.append(line.strip())
@@ -208,6 +210,7 @@ word_embeddings_dim = len(embd[0])
 Word definitions end
 '''
 
+
 # label list
 label_set = set()
 for doc_meta in shuffle_doc_name_list:
@@ -253,7 +256,10 @@ for i in range(real_train_size):
         row_x.append(i)
         col_x.append(j)
         # np.random.uniform(-0.25, 0.25)
-        data_x.append(doc_vec[j] / doc_len)  # doc_vec[j]/ doc_len
+        if (doc_len <= 0):
+            data_x.append(doc_vec[j] / 1)
+        else:            
+            data_x.append(doc_vec[j] / doc_len)  # doc_vec[j]/ doc_len
 
 # x = sp.csr_matrix((real_train_size, word_embeddings_dim), dtype=np.float32)
 x = sp.csr_matrix((data_x, (row_x, col_x)), shape=(
@@ -312,7 +318,6 @@ print(ty)
 # allx: the the feature vectors of both labeled and unlabeled training instances
 # (a superset of x)
 # unlabeled training instances -> words
-
 word_vectors = np.random.uniform(-0.01, 0.01,
                                  (vocab_size, word_embeddings_dim))
 
@@ -379,6 +384,7 @@ Doc word heterogeneous graph
 
 # word co-occurence with context windows
 window_size = 20
+window_size = 30
 windows = []
 
 for doc_words in shuffle_doc_words_list:
@@ -407,7 +413,9 @@ for window in windows:
         appeared.add(window[i])
 
 word_pair_count = {}
-for window in windows:
+for idx_window in tqdm(range(len(windows))):
+# for window in windows:
+    window = windows[idx_window]
     for i in range(1, len(window)):
         for j in range(0, i):
             word_i = window[i]
@@ -505,24 +513,31 @@ adj = sp.csr_matrix(
     (weight, (row, col)), shape=(node_size, node_size))
 
 # dump objects
+print("Saving...1/7")
 with open("../data/ind.{}.x".format(dataset), 'wb') as f:
     pkl.dump(x, f)
 
+print("Saving...2/7")
 with open("../data/ind.{}.y".format(dataset), 'wb') as f:
     pkl.dump(y, f)
 
+print("Saving...3/7")
 with open("../data/ind.{}.tx".format(dataset), 'wb') as f:
     pkl.dump(tx, f)
 
+print("Saving...4/7")
 with open("../data/ind.{}.ty".format(dataset), 'wb') as f:
     pkl.dump(ty, f)
 
+print("Saving...5/7")
 with open("../data/ind.{}.allx".format(dataset), 'wb') as f:
     pkl.dump(allx, f)
 
+print("Saving...6/7")
 with open("../data/ind.{}.ally".format(dataset), 'wb') as f:
     pkl.dump(ally, f)
 
+print("Saving...7/7")
 with open("../data/ind.{}.adj".format(dataset), 'wb') as f:
     pkl.dump(adj, f)
 

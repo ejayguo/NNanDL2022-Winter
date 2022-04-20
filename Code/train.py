@@ -11,6 +11,8 @@ import torch.nn as nn
 
 import numpy as np
 
+from tqdm import tqdm
+
 from utils.utils import *
 from models.gcn import GCN
 from models.mlp import MLP
@@ -22,7 +24,7 @@ cfg = CONFIG()
 if len(sys.argv) != 2:
 	sys.exit("Use: python train.py <dataset>")
 
-datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr', 'supremecourt']
 dataset = sys.argv[1]
 
 if dataset not in datasets:
@@ -119,7 +121,8 @@ def evaluate(features, labels, mask):
 val_losses = []
 
 # Train model
-for epoch in range(cfg.epochs):
+# for epoch in range(cfg.epochs):
+for epoch in tqdm(range(cfg.epochs)):
 
     t = time.time()
     
