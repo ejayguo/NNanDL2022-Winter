@@ -1,8 +1,0 @@
-cd ./preprocess
-python remove_words.py supremecourt
-python build_graph.py supremecourt
-cd ..
-python train.py supremecourt
-
-Memory Check
-/usr/bin/time -l <program> <args>
